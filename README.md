@@ -12,6 +12,8 @@ This project uses Create React App to develop and test a collection of reusable 
 4. Create a folder in `/src/components` for your new component
 5. Make an index file in `/src/components/yourComponentName` with the component exported
 6. Add the export to `/index.ts`
+7. Test and develop your component by adding it to `/src/App.tsx`
+8. Consider using [Emotion](https://emotion.sh/docs/introduction) or similar to keep CSS with the component.
 
 ## How to Publish
 
@@ -28,6 +30,7 @@ Contributions are welcome! If you would like to contribute to this project, plea
 2. Create a new branch for your contribution
 3. Make your changes
 4. Submit a pull request
+
 
 ## License
 This project is licensed under the MIT license. The license file can be found at the root of the repository: [LICENSE](./LICENSE)
