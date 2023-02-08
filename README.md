@@ -5,11 +5,19 @@ This project uses Create React App to develop and test a collection of reusable 
 ## Prerequisites
 - npm account (paid or public repository)
 
+## Getting Started
+1. Pull the repository
+2. Run `npm install` in the project directory
+3. Create a folder in /src/components
+4. Create a folder in `/src/components` for your new component
+5. Make an index file in `/src/components/yourComponentName` with the component exported
+6. Add the export to `/index.ts`
+
 ## How to Publish
 
 ```npm run publish```
 
-his script is set up to publish the components in the `src/components` folder to npm with the `--access public` flag, making the package publicly available.
+This script is set up to publish the components in the `src/components` folder to npm with the `--access public` flag, making the package publicly available.
 
 ## Package Structure
 The built package, which includes both CommonJS and EcmaScript modules, as well as CSS files, will be located in the `lib` folder.
@@ -22,7 +30,7 @@ Contributions are welcome! If you would like to contribute to this project, plea
 4. Submit a pull request
 
 ## License
-This project is licensed under the MIT license.
+This project is licensed under the MIT license. The license file can be found at the root of the repository: [LICENSE](./LICENSE)
 
 ## Note
 Please make sure to thoroughly test the components in the development environment before publishing to ensure stability and compatibility.
