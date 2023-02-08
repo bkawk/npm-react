@@ -33,7 +33,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "clean": "rimraf lib",
-    "copy-files": "copyfiles -e **/*.ts -e **/*.tsx -u 1 src/**/*.scss lib/esm/src",
+    "copy-files": "copyfiles -u 1 src/components/**/*.scss lib/esm/src/",
     "tsc": "npm run clean && tsc -p tsconfig.json && tsc -p tsconfig-cjs.json && npm run copy-files",
     "prepare": "npm run tsc",
     "publish": "npm publish --access public"
