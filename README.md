@@ -16,6 +16,9 @@ This project uses Create React App to develop and test a collection of reusable 
 8. Consider using [Emotion](https://emotion.sh/docs/introduction) or similar to keep CSS with the component.
 
 ## How to Publish
+```npm run prepare```
+
+check the contents of `lib` folder as this is what wil get published after...
 
 ```npm run publish```
 

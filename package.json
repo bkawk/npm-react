@@ -1,7 +1,7 @@
 {
   "name": "@bkawk/npm-react",
   "homepage": "https://www.npmjs.com/package/@bkawk/npm-react",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "module": "./lib/esm/index.js",
   "main": "./lib/cjs/index.js",
