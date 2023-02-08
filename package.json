@@ -1,7 +1,15 @@
 {
   "name": "@bkawk/npm-react",
+  "author": "@bkawk <bkawk@protonmail.com>",
   "homepage": "https://www.npmjs.com/package/@bkawk/npm-react",
   "version": "0.1.1",
+  "description": "A React component library",
+  "keywords": [
+    "react",
+    "component",
+    "library"
+  ],
+  "license": "MIT",
   "private": false,
   "module": "./lib/esm/index.js",
   "main": "./lib/cjs/index.js",
